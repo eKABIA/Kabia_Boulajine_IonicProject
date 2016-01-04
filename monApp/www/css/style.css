@@ -1,1 +1,9 @@
 /* Empty. Add your own CSS if you like */
+.form
+{
+	background-color: blue;
+}
+#form
+{
+	background-color: red;
+}
