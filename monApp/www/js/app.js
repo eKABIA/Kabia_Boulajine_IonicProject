@@ -36,7 +36,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/Geolocalisation',
     views: {
       'menuContent': {
-        templateUrl: 'templates/Geolocalisation.html'
+        templateUrl: 'templates/Geolocalisation.html',
+        controller: 'MapCtrl'
       }
     }
   })
@@ -61,13 +62,13 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       views: {
         'menuContent': {
           templateUrl: 'templates/Reglage.html',
-        
+
         }
       }
     })
 
- 
-  
+
+
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/Profil');
 });
